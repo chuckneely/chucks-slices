@@ -6,7 +6,7 @@ const LogoStyles = styled.div`
   /* This value controls the entire size of the logo*/
   font-size: 6px;
   font-size: clamp(1px, 0.65vw, 8px);
-  width: 30em;
+  width: 33em;
   height: 30em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   margin: 0;
@@ -74,7 +74,7 @@ const LogoStyles = styled.div`
     &.i {
       --scale: 0.9;
       --translateY: -0.1em;
-      --translateX: 0.1em;
+      --translateX: 0.2em;
     }
     &.c {
       --rotate: 3deg;
@@ -102,12 +102,12 @@ export default function Logo() {
   return (
     <LogoStyles className="logo">
       <div className="inner">
-        <span className="est">EST 1994</span>
+        <span className="est">EST 1983</span>
         <h1>
           <span className="slicks">
-            <span className="letter S">S</span>
-            <span className="letter l">l</span>
-            <span className="letter i">i</span>
+            <span className="letter S">C</span>
+            <span className="letter l">h</span>
+            <span className="letter i">u</span>
             <span className="letter c">c</span>
             <span className="letter k">k</span>
             <span className="letter apos">'</span>
