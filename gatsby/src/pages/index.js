@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemGrid from '../components/itemGrid';
+import ItemGrid from '../components/ItemGrid';
 import LoadingGrid from '../components/LoadingGrid';
 import { HomePageGrid } from '../styles/Grids';
 import useLatestData from '../utils/useLatestData';
